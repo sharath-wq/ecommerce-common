@@ -3,6 +3,7 @@ export enum Subjects {
     ProductUpdated = 'product:updated',
 
     UserCreated = 'user:created',
+    UserUpdated = 'user:updated',
 
     CartCreated = 'cart:created',
 }
