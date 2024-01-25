@@ -8,12 +8,6 @@ export interface OrderCreatedEvent {
         status: OrderStatus;
         userId: string;
         cartId: string;
-        products: [
-            {
-                id: string;
-                price: number;
-                title: string;
-            }
-        ];
+        amount: number;
     };
 }
