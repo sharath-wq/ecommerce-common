@@ -21,3 +21,5 @@ export * from './events/user-updated-event';
 export * from './events/subjects';
 
 export * from './events/cart-created-event';
+export * from './events/add-to-cart-event';
+export * from './events/remove-from-cart-event';
