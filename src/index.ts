@@ -25,3 +25,4 @@ export * from './events/add-to-cart-event';
 export * from './events/remove-from-cart-event';
 
 export * from './events/types/order-status';
+export * from './events/order-created-event';

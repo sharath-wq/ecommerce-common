@@ -8,4 +8,6 @@ export enum Subjects {
     CartCreated = 'cart:created',
     AddToCart = 'cart:add',
     RemoveFromCart = 'cart:remove',
+
+    OrderCreated = 'order:created',
 }
