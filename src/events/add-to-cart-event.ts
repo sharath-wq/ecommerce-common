@@ -1,6 +1,6 @@
 import { Subjects } from './subjects';
 
-export interface AddToCart {
+export interface AddToCartEvent {
     subject: Subjects.AddToCart;
     data: {
         id: string;

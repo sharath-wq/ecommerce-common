@@ -1,6 +1,6 @@
 import { Subjects } from './subjects';
 
-export interface RemoveFromCart {
+export interface RemoveFromCartEvent {
     subject: Subjects.RemoveFromCart;
     data: {
         id: string;
