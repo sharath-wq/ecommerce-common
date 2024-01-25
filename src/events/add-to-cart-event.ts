@@ -5,12 +5,10 @@ export interface AddToCart {
     data: {
         id: string;
         userId: string;
-        products: [
-            {
-                id: string;
-                title: string;
-                price: number;
-            }
-        ];
+        product: {
+            id: string;
+            price: number;
+            title: string;
+        };
     };
 }
